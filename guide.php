@@ -1,0 +1,1 @@
+Your evacuation strategy is:
