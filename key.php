@@ -1,1 +1,1 @@
-And now some help reading the map
+Help reading the map goes here
