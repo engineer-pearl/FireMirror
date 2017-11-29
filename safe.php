@@ -6,6 +6,7 @@
 <div class="main" style="width = 100%">
     <div class="weather" style="float:right">
         <?php include "weather.php"?>
+        
     </div>
 
     <div class="date" style ="text-align:center; font-size:35px">
@@ -13,7 +14,7 @@
     </div>
 
     <div class="feed"  style ="position:fixed; bottom:15%; width:100%; text-align:center; ">
-        <?php include "feed.php"?>
+        <?php include "tweets/index.php"?>
     </div>
 
 </div>
