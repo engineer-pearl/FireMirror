@@ -17,7 +17,7 @@ body
 }
 .tweet a
 {
-	color:#c99a54;
+	color:white;
 	text-decoration: none;
 }
 .tweet a:hover
@@ -27,7 +27,7 @@ body
 
 .tweet strong
 {
-	color:#FCFCFC;
+	color:white;
 	font-size:0.9em;
 	display:block;
 	font-variant: small-caps;
