@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:200,400,600,700,800');
+
+
+h1 {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 29px;
+  color: white;
+}
+
+.text{
+  font-family: 'Space Mono', Helvetica, sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+.container {
+  display: grid;
+  width: 100%;
+}
+
+.weather-icon,
+.title{
+  grid-column: 1/4;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 4px;
+  padding: 15px 100px;
+}
+
+.important-info{ 
+  grid-column: 1;
+}
+
+.description-container{
+  border-radius: 4px;
+  display: grid;
+  width: 450px;
+  margin: 0 auto;
+  padding:20px 0px;
+}
+
+.block-1 {
+  grid-column: 1;
+  padding: 10px;
+}
+.block-2{
+  grid-column: 2;
+  padding: 10px;
+}
+.block-3{
+  grid-column: 3;
+  padding: 10px;
+}
+
+.weatherInfo {
+  height: 100%;
+}
+
+.temp-info {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 65px;
+  color: white;
+  font-weight: 600;
+}
