@@ -24,7 +24,7 @@
            <?php include "time.php"?>
        </div>
 <!––End of time-----------------------------------------Start of Twitter--------------------------->
-        <div class="feed" style="position:fixed; bottom:15%; width:100%; text-align:center; ">
+        <div class="feed">
           <?php 
 		include 'twitter/display-tweets.php';//Include the display-tweets file- Ensure that you have the correct path
 		
@@ -39,7 +39,6 @@
 		*/
 		
 		display_tweets('BBCWorld','time_since',3,5);
-	
 ?>
 
         </div>
