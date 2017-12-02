@@ -13,7 +13,7 @@
 </head>
 <body>
 
-
+    <?php include "config.php" ?>
  <!–– Weather ----------------------------------------------------->
     <div class="weather">
         <?php include "weather.php"?>
@@ -45,6 +45,10 @@
         </div>
         
     </div>
-
+    <br><br><br><br><br><br>
+    <div class="ownership" style="position:fixed; bottom:0;">
+        &nbsp;&nbsp;Mirror ID:
+        <?php echo $idnumb; ?> <br><br>
+    </div>
 </body>
 </html>

@@ -5,3 +5,11 @@ body{
     font-family: "Comic Sans";
     font-size: 20px;
 }
+a{
+color: #FFFFFF;
+}
+.feed{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
